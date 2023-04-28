@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com</groupId>
-        <artifactId>frakton</artifactId>
+        <groupId>org</groupId>
+        <artifactId>mimo</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
@@ -16,7 +16,7 @@
     <build>
         <resources>
             <resource>
-                <directory>./dist/frakton</directory>
+                <directory>./dist/mimo</directory>
                 <targetPath>static</targetPath>
             </resource>
         </resources>
@@ -24,11 +24,11 @@
             <plugin>
                 <groupId>com.github.eirslett</groupId>
                 <artifactId>frontend-maven-plugin</artifactId>
-                <version>1.7.6</version>
+                <version>1.12.1</version>
                 <configuration>
                     <workingDirectory>./</workingDirectory>
-                    <nodeVersion>v10.16.0</nodeVersion>
-                    <npmVersion>6.10.2</npmVersion>
+                    <nodeVersion>v16.19.1</nodeVersion>
+                    <npmVersion>8.19.3</npmVersion>
                 </configuration>
                 <executions>
                     <execution>

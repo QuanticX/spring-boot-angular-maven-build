@@ -1,4 +1,4 @@
-package com.frakton.config;
+package org.mimo.config;
 
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
